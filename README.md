@@ -1,0 +1,1 @@
+# AvitoTechChallenge2025

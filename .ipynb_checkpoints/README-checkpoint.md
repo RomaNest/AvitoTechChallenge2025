@@ -13,7 +13,7 @@ The approach revolves around simple baseline models for candidate retrieval and 
   2. the time between interactions,
   3. how recent the interaction is,
   4. how popular the item is (for debiasing).
-* `title-features.ipynb` — retrieves items with the smallest distance to the centroid of past user interactions and to the last user interaction based on title information.
+* `title-features.ipynb` — retrieves items with the smallest distance to the centroid of past user interactions and to the last user interaction.
 * `tags-similarity.ipynb` — treats different `{"item": "value"}` pairs as unique tags, hashes them, and finds closest items via sparse tag vectors.
 * `gnn.py` — simple LightGCN model with different weights by interaction type and recency, with popularity debiasing.
 * `transformer.ipynb` — small, CPU-friendly transformer model.
